@@ -1,0 +1,86 @@
+body {
+    background-image:url(./images/img-pk.jpg);
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  font-family:"Roboto";
+
+}
+
+/* Full-width input fields */
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: lightgrey;
+  font-family:"Roboto";
+}
+
+input[type=text]:focus input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  font-family:"Roboto";
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid white;
+  margin-bottom: 25px;
+  font-family:"Roboto";
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family:"Roboto";
+}
+
+.registerbtn:hover {
+  opacity:1;
+  font-family:"Roboto";
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+  text-decoration: none;
+  
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  text-align: center;
+  font-family:"Roboto";
+
+}
+.design {
+    background: #4CAF50;
+    color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family:"Roboto";
+}
+.text {
+color: white;
+font-family:"Roboto";
+}
+.texts {
+    color:white;
+    font-family:"Roboto";
+ }
